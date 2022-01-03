@@ -1,0 +1,48 @@
+.calendar {
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.fc-toolbar {
+    text-transform: capitalize;
+}
+
+.fc .fc-button-primary {
+    color: #007EFF;
+    border-color: #007EFF;
+    background: transparent;
+}
+
+.fc .fc-button-primary:not(:only-of-type):first-of-type {
+    border-right: none;
+}
+
+.fc .fc-button-primary:not(:only-of-type):last-of-type {
+    border-left: none;
+}
+
+.fc .fc-button-primary:not(:disabled):hover {
+    border-color: #007EFF;
+    background-color: #3679e3;
+}
+
+.fc .fc-button-primary:disabled {
+    color: gray;
+    border-color: transparent;
+    background: lightgray;
+}
+
+.fc .fc-button-primary:not(:disabled):active,
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+    background-color: #007EFF;
+    border-color: #007EFF;
+    outline: none;
+}
+
+.fc-icon {
+    line-height: .65;
+}
+
+button, button:active, button:focus {
+    box-shadow: none !important;
+}
